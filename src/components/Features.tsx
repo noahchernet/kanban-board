@@ -9,7 +9,7 @@ const Features: React.FC = () => {
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Unlock Efficiency with Our Key Features
           </h2>
-          <p className="mb-8 font-light lg:text-xl">Discover how FlowBoard revolutionizes project management:</p>
+          <p className="mb-4 md:mb-8 font-light lg:text-xl">Discover how FlowBoard revolutionizes project management</p>
           <div className="py-8 mb-6 border-t border-b border-gray-200 dark:border-gray-700">
             <div className="flex">
               <div className="flex justify-center items-center mr-4 w-8 h-8 rounded-full bg-primary-100 dark:bg-primary-900 shrink-0">
@@ -62,7 +62,7 @@ const Features: React.FC = () => {
               </div>
             </div>
             <div className="flex pt-8">
-              <div className="flex justify-center items-center mr-4 w-8 h-8 bg-teal-100 rounded-full dark:bg-teal-900 shrink-0">
+              <div className="flex justify-center items-center mr-4 w-8 h-8 bg-orange-100 rounded-full dark:bg-orange-900 shrink-0">
                 <svg
                   className="w-6 h-6 text-gray-800 dark:text-white"
                   aria-hidden="true"
@@ -87,7 +87,7 @@ const Features: React.FC = () => {
               </div>
             </div>
             <div className="flex pt-8">
-              <div className="flex justify-center items-center mr-4 w-8 h-8 bg-teal-100 rounded-full dark:bg-teal-900 shrink-0">
+              <div className="flex justify-center items-center mr-4 w-8 h-8 bg-pink-100 rounded-full dark:bg-pink-900 shrink-0">
                 <svg
                   className="w-6 h-6 text-gray-800 dark:text-white"
                   aria-hidden="true"

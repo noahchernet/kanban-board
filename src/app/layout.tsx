@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
+import { ThemeModeScript } from "flowbite-react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({
           rel="stylesheet"
           type="text/css"
         />
+        <ThemeModeScript />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
