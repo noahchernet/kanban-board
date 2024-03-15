@@ -1,12 +1,16 @@
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
-import Image from "next/image";
+import Navbar from "@/components/Navbar";
+import { Flowbite } from "flowbite-react";
 
 export default function Home() {
   return (
-    <main>
-      <Hero />
-      <Features />
-    </main>
+    <Flowbite>
+      <main>
+        <Navbar />
+        <Hero />
+        <Features />
+      </main>
+    </Flowbite>
   );
 }
