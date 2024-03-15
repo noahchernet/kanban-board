@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
 import { ThemeModeScript } from "flowbite-react";
+import { Flowbite } from "flowbite-react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" /> */}
@@ -28,8 +29,10 @@ export default function RootLayout({
           type="text/css"
         />
         <ThemeModeScript />
-      </head>
-      <body className={inter.className}>{children}</body>
+      </Head>
+      <Flowbite>
+        <body className={inter.className}>{children}</body>
+      </Flowbite>
     </html>
   );
 }
