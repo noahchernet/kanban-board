@@ -27,7 +27,7 @@ const config: Config = {
     },
     fontFamily: {
       body: [
-        "Slabo 27px",
+        "Source Sans Pro",
         "ui-sans-serif",
         "system-ui",
         "-apple-system",
@@ -44,7 +44,7 @@ const config: Config = {
         "Noto Color Emoji",
       ],
       sans: [
-        "Slabo 27px",
+        "Source Sans Pro",
         "ui-sans-serif",
         "system-ui",
         "-apple-system",
